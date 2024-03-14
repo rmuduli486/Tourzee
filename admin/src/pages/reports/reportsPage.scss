@@ -1,0 +1,38 @@
+.newContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Spacing between cards */
+  }
+  
+  .card-container .ant-card {
+    width: 100%;
+  }
+  .custom-card {
+    margin-top: 20px; /* Add top margin for spacing */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+  /* report-table.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

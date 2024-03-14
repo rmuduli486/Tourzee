@@ -1,0 +1,24 @@
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .homeTitle{
+    width: 1024px;
+    font-size: 20px;
+  }
+
+  .headerBtn {
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* You can adjust the value to control the amount of rounding */
+  }
+
+  
